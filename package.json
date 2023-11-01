@@ -1,0 +1,33 @@
+{
+  "name": "hello-node-18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build:ts": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacostas/hello-node-16.git"
+  },
+  "engines": {
+    "npm": ">=8",
+    "node": ">=16"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pacostas/hello-node-16/issues"
+  },
+  "homepage": "https://github.com/pacostas/hello-node-16#readme",
+  "dependencies": {
+    "helmet": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "typescript": "^5.1.6"
+  }
+}
